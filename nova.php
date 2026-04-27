@@ -14,9 +14,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $descricao = trim($_POST["descricao"]);
 
     if (!empty($titulo)) {
-        // Inserção estrita com as colunas do enunciado
-        $stmt = $pdo->prepare("INSERT INTO tarefas (titulo, descricao) VALUES (?, ?)");
-        $stmt->execute([$titulo, $descricao]);
+        // Inserção com o campo usuario_id
+        $stmt = $pdo->prepare("INSERT INTO tarefas (titulo, descricao, usuario_id) VALUES (?, ?, ?)");
+        $stmt->execute([$titulo, $descricao, $_SESSION["usuario_id"]]);
         
         header("Location: index.php");
         exit;
