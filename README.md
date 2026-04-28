@@ -1,10 +1,10 @@
-## Sistema de Tarefas To-Do List
+## Sistema de Tarefas To-Do List 📌
 
-### Descrição do Projeto
+### Descrição do Projeto 📃 
 O Sistema de Tarefas To-Do List é uma aplicação web simples para gerenciar tarefas. Ele permite que os usuários façam login, adicionem, concluam e excluam tarefas. O sistema utiliza **PHP para o backend**, **MySQL como banco de dados** e **TailwindCSS para estilização**.
 
 ---
-### Pré-requisitos
+### Pré-requisitos 🧩
 Antes de rodar o projeto, certifique-se de ter os seguintes itens instalados em sua máquina:
 - **XAMPP** (ou outro servidor web com suporte a PHP e MySQL);
 - **Navegador** (Google Chrome, Firefox, etc.);
@@ -12,13 +12,13 @@ Antes de rodar o projeto, certifique-se de ter os seguintes itens instalados em 
 
 ---
 
-### Como Rodar o Projeto? 
+### Como Rodar o Projeto? 🔎
 1. **Configurar o Ambiente**
 - Instale o **XAMPP** e inicie os serviços **Apache e MySQL**.
 - Coloque o projeto na pasta **htdocs** do XAMPP:
 - Caminho: ```C:\xampp\htdocs\DesenvolvimentoDeSistemas\SistemaDeTarefasToDoList```
 
-2. **Configurar o Banco de Dados**
+2. **Configurar o Banco de Dados** ⚙️
 - Abra o **MySQL Workbench** ou o **phpMyAdmin** (disponível no painel do XAMPP).
 - **Crie o banco de dados e as tabelas** executando o seguinte script SQL:
     
@@ -79,7 +79,7 @@ Antes de rodar o projeto, certifique-se de ter os seguintes itens instalados em 
 
 ---
 
-### Funcionalidades
+### Funcionalidades 🎯
 - **Login**: Acesse o sistema com um usuário e senha;
 - **Adicionar Tarefas**: Crie novas tarefas com título e descrição;
 - **Concluir Tarefas**: Marque tarefas como concluídas;
@@ -88,7 +88,7 @@ Antes de rodar o projeto, certifique-se de ter os seguintes itens instalados em 
 
 ---
 
-### Estrutura do Projeto 
+### Estrutura do Projeto 🧱 
 
 ``` 
 SistemaDeTarefasToDoList/
@@ -105,7 +105,7 @@ SistemaDeTarefasToDoList/
 
 ---
 
-### Tecnologias Utilizadas 
+### Tecnologias Utilizadas 💡
 
 - **PHP**: Linguagem de programação para o backend;
 - **MySQL**: Banco de dados relacional;
